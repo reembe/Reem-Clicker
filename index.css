@@ -1,0 +1,56 @@
+body {
+  background-image: url("bths-entrance-stairs.jpg");
+  background-size: cover;
+  font-family: 'Arial Black', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh; 
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 500px; 
+  margin: auto; 
+  border: 3px solid #211717;
+  border-radius: 10px;
+  padding: 20px; 
+}
+
+h1, h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #2C2891;
+}
+
+h2 {
+  font-size: 60px; 
+  color: #660063; 
+}
+
+button {
+  border: none; 
+  padding: 10px;
+  font-weight: bold;
+  width: 200px;
+  margin: 5px; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s; 
+}
+
+#increment-btn {
+  background: #4CAF50; 
+  color: white; 
+}
+
+#save-btn {
+  background: #FF5722; 
+  color: white; 
+}
+
+button:hover {
+  transform: scale(1.05); 
+}
